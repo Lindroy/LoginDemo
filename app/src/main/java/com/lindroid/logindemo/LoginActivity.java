@@ -73,13 +73,12 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-
     }
 
     private CountTimer countTimer;
 
     /**
-     *
+     * 点击按钮后倒计时
      */
     class CountTimer extends CountDownTimer{
 
